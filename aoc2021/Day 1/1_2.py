@@ -1,4 +1,4 @@
-inputFile = open(r"C:\Users\justi\AOC2021\aoc2021\1_input.txt", "r")
+inputFile = open(r"C:\Users\justi\AOC2021\aoc2021\Day 1\1_input.txt", "r")
 firstLine = int(inputFile.readline().strip())
 secondLine = int(inputFile.readline().strip())
 thirdLine = int(inputFile.readline().strip())
