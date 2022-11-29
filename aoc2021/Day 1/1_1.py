@@ -7,3 +7,4 @@ for line in lines:
         count += 1
     box = int(line)
 print (count-1)
+inputFile.close()
