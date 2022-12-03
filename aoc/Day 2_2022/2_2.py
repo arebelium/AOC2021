@@ -1,7 +1,7 @@
 from pyaoc import aoc
 
 @aoc(2022, 2, 2)
-def one(data=None):
+def two(data=None):
     points = {
         "AX": 3, "AY": 4, "AZ": 8,
         "BX": 1, "BY": 5, "BZ": 9,
