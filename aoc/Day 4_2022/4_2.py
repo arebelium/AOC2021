@@ -5,10 +5,10 @@ import re
 def two(data=None): #faster
     count = 0
     for i in data.splitlines():
-        listy = re.findall(r'\d+', i)
-        if int(listy[0])<=int(listy[2]) and int(listy[1])>=int(listy[2]):
+        listy = list(map(int,re.findall(r'\d+', i)))
+        if listy[0]<=listy[2] and listy[1]>=listy[2]:
             count+=1
-        elif int(listy[0])>=int(listy[2]) and int(listy[0])<=int(listy[3]):
+        elif listy[0]>=listy[2] and listy[0]<=listy[3]:
             count+=1
     return (count)
 
