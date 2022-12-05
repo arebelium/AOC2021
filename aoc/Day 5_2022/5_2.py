@@ -1,8 +1,8 @@
 from pyaoc import aoc
 import re
 
-@aoc(2022, 5, 1)
-def one(data=None):
+@aoc(2022, 5, 2)
+def two(data=None):
     total = []
     answer = []
     total.append(['D', 'L', 'V', 'T', 'M', 'H', 'F'])
